@@ -5,10 +5,7 @@ Library                            SeleniumLibrary
 ${dropdownn}    https://training-wheels-protocol.herokuapp.com/dropdown
 
 
-*** Keywords ***
-Dado que entro no site Dropdown
-    Go To    ${dropdownn}
-   
+*** Keywords *** 
 Então verifico se a uma "Dropdown list"
     Element Should Be Visible    xpath=//h3[contains(.,'Dropdown List')]    Dropdown List
 

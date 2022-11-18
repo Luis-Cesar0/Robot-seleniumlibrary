@@ -9,5 +9,6 @@ Test Teardown                     Finish
 
 *** Test Cases ***
 arrata e soltar 
-    mover imagem
+    Dado que entro no site ${arrasta}
+    E movo a imagem para o outro lado
     
