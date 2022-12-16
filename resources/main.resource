@@ -11,6 +11,7 @@ Resource                   ../resources/pages/arraste_e_solte.resource
 Resource                   ../resources/pages/Dropdown_List.resource
 Resource                   ../resources/pages/Select_opcao.resource
 Resource                   ../resources/pages/Controle_Dinâmico.resource
+Resource                   ../resources/pages/File_Uploader.resource
 
 *** Keywords ***
 Start
